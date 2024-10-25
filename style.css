@@ -1,1 +1,15 @@
 /* ВАШІ СТИЛІ */
+body {
+
+    background-color: darkseagreen;
+    font-size: 16px;
+}
+* {
+    box-sizing: border-box;
+  }
+.box {
+    background-color: darkolivegreen;
+    padding: 50px;
+    border-left: 8px solid darkgreen;
+    font-size: 50;
+  }
