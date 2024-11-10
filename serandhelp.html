@@ -6,6 +6,64 @@
     <link rel="stylesheet" href="style2.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+      .container {
+          max-width: 1200px;
+          margin: 20px auto;
+          padding: 20px;
+      }
+      h1 {
+          text-align: center;
+          color: #333;
+      }
+      .post {
+          background: #ffffff;
+          margin: 20px 0;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .post h2 {
+          margin: 0 0 10px;
+          color: #4CAF50;
+      }
+      .post p {
+          margin: 0 0 15px;
+          color: #555;
+      }
+      .post .author {
+          font-size: 14px;
+          color: #777;
+      }
+      .new-post {
+          margin-top: 20px;
+          background: #ffffff;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .new-post textarea {
+          width: 100%;
+          height: 100px;
+          padding: 10px;
+          margin-bottom: 15px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+      }
+      .new-post button {
+          display: inline-block;
+          background-color: #4CAF50;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 16px;
+      }
+      .new-post button:hover {
+          background-color: #45a049;
+      }
+  </style>
    </head>
 <body>
   <div class="sidebar close">
@@ -34,7 +92,7 @@
         <ul class="sub-menu">
           <li><a class="link_name" href="#">Категории</a></li>
           <li><a href="serandhelp.html">Сервера и помощь</a></li>
-          <li><a href="arch.html">Достижения</a></li>
+          <li><a href="ach.html">Достижения</a></li>
           <li><a href="screen.html">Скриншоты</a></li>
         </ul>
       </li>
@@ -83,6 +141,33 @@
       <span class="text">Майн-Ред</span>
     </div>
   </section>
+  <div class="container">
+    <h1>Сервера и помощь</h1>
+    
+    <!-- Секция для добавления новой публикации -->
+    <div class="new-post">
+        <h2>Добавить новую публикацию</h2>
+        <textarea placeholder="Введите текст вашей публикации..."></textarea>
+        <button>Опубликовать</button>
+    </div>
+    
+    <!-- Список публикаций -->
+    <div class="post">
+        <h2>Заголовок публикации 1</h2>
+        <p>Это пример текста первой публикации.</p>
+        <p class="author">Автор:</p>
+    </div>
+    <div class="post">
+        <h2>Заголовок публикации 2</h2>
+        <p>Это пример текста второй публикации.</p>
+        <p class="author">Автор:</p>
+    </div>
+    <div class="post">
+        <h2>Заголовок публикации 3</h2>
+        <p>Пример ещё одной публикации.</p>
+        <p class="author">Автор:</p>
+    </div>
+</div>
   <script>
   let arrow = document.querySelectorAll(".arrow");
   for (var i = 0; i < arrow.length; i++) {
