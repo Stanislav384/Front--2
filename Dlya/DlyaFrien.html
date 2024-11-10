@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои друзья</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .friend-list {
+            margin: 20px 0;
+            padding: 0;
+            list-style: none;
+        }
+        .friend-list li {
+            background: #f9f9f9;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .friend-list li span {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .friend-list li button {
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .friend-list li button:hover {
+            background-color: #e60000;
+        }
+        .add-friend {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .add-friend input {
+            width: 70%;
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .add-friend button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .add-friend button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Мои друзья</h1>
+        
+        <!-- Список друзей -->
+        <ul class="friend-list">
+            <li>
+                <span>Пример</span>
+                <button>Удалить</button>
+            </li>
+            <li>
+                <span>Пример</span>
+                <button>Удалить</button>
+            </li>
+            <li>
+                <span>Пример</span>
+                <button>Удалить</button>
+            </li>
+        </ul>
+
+        <!-- Добавление друга -->
+        <div class="add-friend">
+            <input type="text" placeholder="Введите имя друга">
+            <button>Добавить</button>
+        </div>
+    </div>
+</body>
+</html>

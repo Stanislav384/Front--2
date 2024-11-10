@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Достижения пользователей</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .achievement {
+            background: #ffffff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .achievement h2 {
+            margin: 0 0 10px;
+            color: #4CAF50;
+        }
+        .achievement p {
+            margin: 0 0 15px;
+            color: #555;
+        }
+        .achievement img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        .achievement .author {
+            font-size: 14px;
+            color: #777;
+        }
+        .new-achievement {
+            margin-top: 20px;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .new-achievement textarea, .new-achievement input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .new-achievement button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .new-achievement button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Достижения пользователей</h1>
+        
+        <!-- Секция для добавления нового достижения -->
+        <div class="new-achievement">
+            <h2>Поделиться достижением</h2>
+            <textarea placeholder="Напишите о вашем достижении..."></textarea>
+            <input type="file" accept="image/*">
+            <button>Опубликовать</button>
+        </div>
+        
+        <!-- Пример достижений -->
+        <div class="achievement">
+            <h2>Пример</h2>
+            <p>Пример</p>
+            <img src="https://via.placeholder.com/800x400" alt="Фотография достижения">
+            <p class="author">Автор:</p>
+        </div>
+        <div class="achievement">
+            <h2>Пример</h2>
+            <p>Пример</p>
+            <img src="https://via.placeholder.com/800x400" alt="Фотография достижения">
+            <p class="author">Автор:</p>
+        </div>
+    </div>
+</body>
+</html>
