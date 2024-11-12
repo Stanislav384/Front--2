@@ -11,13 +11,25 @@
           max-width: 1200px;
           margin: 20px auto;
           padding: 20px;
+          background-color: gray;
+      }
+      textarea {
+        background-color: darkcyan;
+        color: darkslategray;
+        
+      }
+      textarea::placeholder {
+        color:darkslategray
       }
       h1 {
           text-align: center;
           color: #333;
       }
+      h2 {
+        color:darkslategray
+      }
       .post {
-          background: #ffffff;
+          background: #333;
           margin: 20px 0;
           padding: 20px;
           border-radius: 8px;
@@ -25,19 +37,19 @@
       }
       .post h2 {
           margin: 0 0 10px;
-          color: #4CAF50;
+          color: darkcyan;
       }
       .post p {
           margin: 0 0 15px;
-          color: #555;
+          color: darkcyan;
       }
       .post .author {
           font-size: 14px;
-          color: #777;
+          color: darkcyan;
       }
       .new-post {
           margin-top: 20px;
-          background: #ffffff;
+          background: #333;
           padding: 20px;
           border-radius: 8px;
           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -47,13 +59,13 @@
           height: 100px;
           padding: 10px;
           margin-bottom: 15px;
-          border: 1px solid #ccc;
+          border: 1px solid darkcyan;
           border-radius: 4px;
       }
       .new-post button {
           display: inline-block;
-          background-color: #4CAF50;
-          color: white;
+          background-color: darkcyan;
+          color: darkslategrey;
           padding: 10px 20px;
           border: none;
           border-radius: 4px;
@@ -61,7 +73,7 @@
           font-size: 16px;
       }
       .new-post button:hover {
-          background-color: #45a049;
+          background-color: gray;
       }
   </style>
    </head>
@@ -143,29 +155,28 @@
   </section>
   <div class="container">
     <h1>Мои публикации</h1>
-    
     <!-- Секция для добавления новой публикации -->
     <div class="new-post">
         <h2>Добавить новую публикацию</h2>
-        <textarea placeholder="Введите текст вашей публикации..."></textarea>
+        <textarea placeholder="Введите текст вашей публикации..." ></textarea>
         <button>Опубликовать</button>
     </div>
     
     <!-- Список публикаций -->
     <div class="post">
-        <h2>Заголовок публикации 1</h2>
-        <p>Это пример текста первой публикации. Здесь пользователь делится своими мыслями.</p>
-        <p class="author">Автор:</p>
+        <h2>Требуется помощь с постройкой.</h2>
+        <p>Совершенно недавно начал играть на новом сервере и захотел построить что-то. Требуется помощь. Сервер: DiaSMassek2246</p>
+        <p class="author">Автор: Ans</p>
     </div>
     <div class="post">
-        <h2>Заголовок публикации 2</h2>
-        <p>Это пример текста второй публикации. Контент может быть любым.</p>
-        <p class="author">Автор:</p>
+        <h2>Кто знает где можно купить аметист на DiaSMassek2246?</h2>
+        <p>Я новенький на этом сервере, поэтому плохо ориентируюсь в подобных вещах.</p>
+        <p class="author">Автор: Ans</p>
     </div>
     <div class="post">
-        <h2>Заголовок публикации 3</h2>
-        <p>Пример ещё одной публикации. Вы можете добавлять столько, сколько нужно.</p>
-        <p class="author">Автор:</p>
+        <h2>Сегодня я впервые зашёл на DiaSMassek2246.</h2>
+        <p>Кто-то знает интересные места на этом сервере?</p>
+        <p class="author">Автор: Ans</p>
     </div>
   </div>
 

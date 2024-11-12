@@ -13,7 +13,7 @@
           max-width: 800px;
           margin: 20px auto;
           padding: 20px;
-          background: #ffffff;
+          background: gray;
           border-radius: 8px;
           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       }
@@ -27,7 +27,7 @@
           list-style: none;
       }
       .friend-list li {
-          background: #f9f9f9;
+          background: #333;
           margin: 10px 0;
           padding: 15px;
           border-radius: 4px;
@@ -35,22 +35,24 @@
           justify-content: space-between;
           align-items: center;
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+          color: darkcyan;
       }
       .friend-list li span {
           font-size: 16px;
           font-weight: bold;
       }
       .friend-list li button {
-          background-color: #ff4d4d;
-          color: white;
+          background-color: darkcyan;
+          color: #333;
           border: none;
           padding: 8px 12px;
           border-radius: 4px;
           cursor: pointer;
       }
       .friend-list li button:hover {
-          background-color: #e60000;
+          background-color: darkslategray;
       }
+
       .add-friend {
           margin-top: 20px;
           text-align: center;
@@ -59,19 +61,22 @@
           width: 70%;
           padding: 10px;
           margin-right: 10px;
-          border: 1px solid #ccc;
+          border: 1px solid darkcyan;
           border-radius: 4px;
       }
       .add-friend button {
-          background-color: #4CAF50;
-          color: white;
+          background-color: darkcyan;
+          color: #333;
           border: none;
           padding: 10px 20px;
           border-radius: 4px;
           cursor: pointer;
       }
       .add-friend button:hover {
-          background-color: #45a049;
+          background-color: darkslategray;
+      }
+      input {
+        background-color: #333;
       }
      </style>
    </head>
@@ -157,19 +162,20 @@
 
   <div class="container">
     <h1>Мои друзья</h1>
-    
+    <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/54/Golden_Apple_JE2_BE2.png/revision/latest/thumbnail/width/360/height/360?cb=20200521041809
+          " height="100" width="100">
     <!-- Список друзей -->
     <ul class="friend-list">
         <li>
-            <span>Пример</span>
+            <span>DiamondPro</span>
             <button>Удалить</button>
         </li>
         <li>
-            <span>Пример</span>
+            <span>MineCH</span>
             <button>Удалить</button>
         </li>
         <li>
-            <span>Пример</span>
+            <span>XQW</span>
             <button>Удалить</button>
         </li>
     </ul>
