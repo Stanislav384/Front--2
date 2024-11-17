@@ -12,7 +12,7 @@
   left: 0;
   height: 100%;
   width: 260px;
-  background: #11101d;
+  background-image: url('https://www.filterforge.com/filters/11635-v7.jpg');
   z-index: 100;
   transition: all 0.5s ease;
 }
@@ -62,7 +62,7 @@
   transition: all 0.4s ease;
 }
 .sidebar .nav-links li:hover{
-  background: #1d1b31;
+  background-image: url('https://media.forgecdn.net/avatars/thumbnails/342/418/256/256/637486449713141736.png');
 }
 .sidebar .nav-links li .iocn-link{
   display: flex;
@@ -106,7 +106,7 @@
 .sidebar .nav-links li .sub-menu{
   padding: 6px 6px 14px 80px;
   margin-top: -10px;
-  background: #1d1b31;
+  background-image: url('https://media.forgecdn.net/avatars/thumbnails/342/418/256/256/637486449713141736.png');
   display: none;
 }
 .sidebar .nav-links li.showMenu .sub-menu{
@@ -167,7 +167,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #1d1b31;
+  background-image: url('https://media.forgecdn.net/avatars/thumbnails/342/418/256/256/637486449713141736.png');
   padding: 12px 0;
   transition: all 0.5s ease;
 }
@@ -187,7 +187,7 @@
   object-fit: cover;
   border-radius: 16px;
   margin: 0 14px 0 12px;
-  background: #1d1b31;
+  background: #2f2f30
   transition: all 0.5s ease;
 }
 .sidebar.close .profile-details img{
@@ -210,7 +210,7 @@
 }
 .home-section{
   position: relative;
-  background: #E4E9F7;
+  background-image: url('https://i.pinimg.com/474x/49/e5/00/49e50066f7abd4b201e9a89fca949cfa.jpg');
   left: 260px;
   width: calc(100% - 260px);
   transition: all 0.5s ease;
